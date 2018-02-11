@@ -7,7 +7,7 @@ import com.burakeregar.githubsearch.home.HomeActivity
 import dagger.Component
 
 @ActivityScope
-@Component(dependencies = arrayOf(AppComponent::class), modules = arrayOf(HomeActivityModule::class))
+@Component(dependencies = [(AppComponent::class)], modules = [(HomeActivityModule::class)])
 interface HomeActivityComponent {
 
     fun inject(homeActivity: HomeActivity)

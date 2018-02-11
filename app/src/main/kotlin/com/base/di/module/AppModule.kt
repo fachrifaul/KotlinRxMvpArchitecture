@@ -2,17 +2,14 @@ package com.base.di.module
 
 import android.app.Application
 import android.content.Context
-import android.content.res.Resources
 import com.base.helper.SpHelper
+import com.base.util.AppSchedulerProvider
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
-import javax.inject.Singleton
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder
-import com.base.util.AppSchedulerProvider
-import com.base.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
-
+import javax.inject.Singleton
 
 
 /**

@@ -5,7 +5,7 @@ package com.base.mvp
  * burakeregar@gmail.com
  * https://github.com/burakeregar
  */
-interface Presenter<V : BaseView> {
+interface Presenter<in V : BaseView> {
 
     fun attachView(view: V)
 

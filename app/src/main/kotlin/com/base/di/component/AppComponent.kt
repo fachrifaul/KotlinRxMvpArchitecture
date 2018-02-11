@@ -24,7 +24,7 @@ import javax.inject.Singleton
  * https://github.com/burakeregar
  */
 @Singleton
-@Component(modules = arrayOf(AppModule::class, RetrofitModule::class, ApiModule::class, OkHttpModule::class))
+@Component(modules = [(AppModule::class), (RetrofitModule::class), (ApiModule::class), (OkHttpModule::class)])
 interface AppComponent {
     fun application(): Application
     fun gson(): Gson

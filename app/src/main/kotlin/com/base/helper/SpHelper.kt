@@ -8,7 +8,7 @@ import com.google.gson.Gson
  * burakeregar@gmail.com
  * https://github.com/burakeregar
  */
-class SpHelper constructor(var sharedPreferences: SharedPreferences, var gson: Gson) {
+class SpHelper constructor(private var sharedPreferences: SharedPreferences, var gson: Gson) {
 
     private var editor: SharedPreferences.Editor = sharedPreferences.edit()
 

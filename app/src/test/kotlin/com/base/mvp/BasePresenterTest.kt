@@ -9,8 +9,6 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Test
 
-import org.junit.Assert.*
-
 /**
  * Created by Burak Eregar on 18.11.2017.
  * burakeregar@gmail.com

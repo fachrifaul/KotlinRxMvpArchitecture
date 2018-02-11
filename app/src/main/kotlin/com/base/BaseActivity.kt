@@ -3,9 +3,9 @@ package com.base
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.base.di.component.AppComponent
-import com.base.mvp.BaseView
 import com.base.event.DefaultEvent
 import com.base.mvp.BasePresenter
+import com.base.mvp.BaseView
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.jetbrains.anko.toast
@@ -53,5 +53,7 @@ abstract class BaseActivity: AppCompatActivity(), BaseView {
     }
 
     @Subscribe
-    fun defaultSubscribe(event: DefaultEvent){}
+    fun defaultSubscribe(event: DefaultEvent){
+
+    }
 }
